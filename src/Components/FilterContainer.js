@@ -23,7 +23,7 @@ function FilterContainer(){
         <div>
             <SearchBar onSearchChange={handleSearchChange}/>
             <AddTransaction onAddTransaction={handleAddTransaction}/>
-            <TransactionTable transactionsFun = {filteredTransactions}/>
+            <TransactionTable transactions = {filteredTransactions}/>
             
         </div>
     )
