@@ -1,6 +1,6 @@
 function SearchBar(){
     return (
-        <div className="ui large fluid icon input">
+        <div className="searchbar">
           <input
             type="text"
             placeholder="Search your Recent Transactions"
