@@ -1,3 +1,5 @@
+import React, {useState} from "react"
+
 function AddTransaction(){
     return(
         <div className="add-transaction">
