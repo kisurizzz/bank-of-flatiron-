@@ -1,11 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
-import HeaderSite from './Components/HeaderSite';
+import FilterContainer from './Components/FilterContainer';
+
 
 function App() {
   return (
     <div>
-      <HeaderSite/>
+      <h1>The Royal Bank of Flatiron</h1>
+      <FilterContainer/>
     </div>
   );
 }
