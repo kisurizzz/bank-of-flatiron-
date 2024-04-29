@@ -5,6 +5,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  display: flex; 
+  justify-content: center; 
+  min-height: 100vh;
 }
 
 code {
@@ -19,4 +22,79 @@ h1 {
   background: rgb(2,0,36);
 background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 16%, rgba(0,212,255,1) 100%);
   margin-top: 0px;
+}
+
+/* .add-transaction{
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+.add-transaction label{
+  margin-right: 10px;
+} */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+th {
+  background-color: #ddd;
+  font-weight: bold;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+form input,
+form button {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-bottom: 5px;
+}
+.add-forms label{
+  margin-left: 13px;
+  margin-right: 8px;
+}
+button {
+  cursor: pointer;
+}
+/* .searchbar input{
+  border: 2px solid #ccc;
+  padding: 6px;
+  border-radius: 3px;
+  width: 100%;
+}
+.searchbar{
+  display: flex;
+  width: 100%;
+} */
+.search-container {
+  display: flex;
+  align-items: center;
+  margin-left: 28%;
+  margin-bottom: 20px;
+}
+
+.search-input {
+  display: flex; /* Allow stacking elements horizontally */
+  align-content: center; 
+  border: 1px solid #ccc; 
+  padding: 5px; /* Add padding for spacing */
+  border-radius: 3px; /* Add rounded corners */
+}
+
+.search-icon {
+  margin-right: 5px; /* Add margin to space the icon from text */
+  color: #ccc; /* Set icon color (optional) */
+  font-size: 0.9em; /* Adjust icon size (optional) */
 }
