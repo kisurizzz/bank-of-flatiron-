@@ -68,6 +68,15 @@ form button {
 button {
   cursor: pointer;
 }
+.input-fields{
+  margin-bottom: 5px;
+}
+.add-forms button{
+  font-weight: 1000;
+  width: 30%;
+  align-self: center;
+
+}
 /* .searchbar input{
   border: 2px solid #ccc;
   padding: 6px;
